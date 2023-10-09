@@ -84,25 +84,24 @@ Now Customer_Interaction_Analysis_API is up and running locally
 
 
 ## Endpoints
-The API provides the following endpoints:
+The API provides the following endpoint:
 
-'/customer-interaction/': List of customer interactions (requires authentication).
 '/customer-analysis/{customer_id}/': Customer interaction analysis for a specific customer.
 
-You can make HTTP GET requests to these endpoints to retrieve data.
+You can make HTTP GET requests to this endpoint to retrieve data.
 
 # Examples
 
-## Retrieve Customer Interactions
-To retrieve a list of customer interactions, make a GET request to:
-http://localhost:8000/customer-interaction/
 
 ## Retrieve Customer Analysis
 To retrieve customer interaction analysis for a specific customer (replace {customer_id} with the actual customer ID), make a GET request to:
+
 http://localhost:8000/customer-analysis/{customer_id}/
 
 # Testing
 You can run tests to make sure everything works as intended
+
+
 python3 manage.py test
 
 
