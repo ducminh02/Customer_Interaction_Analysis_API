@@ -43,7 +43,7 @@ source venv/bin/activate
 
 You need to install the virtual environment if you haven't already done that
 
-sudo apt install python3-virtualenv
+pip3 install virtualenv
 
 pip install virtualenvwrapper
 
