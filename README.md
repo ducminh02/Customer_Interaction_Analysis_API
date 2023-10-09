@@ -36,31 +36,45 @@ cd Customer_Interaction_Analysis_API
 
   
 2. (Optional) Create a virtual environment for the project:
+
    run these commands:
+
 virtualenv venv
 source venv/bin/activate
 
 You need to install the virtual environment if you haven't already done that
+
 sudo apt install python3-virtualenv
+
 pip install virtualenvwrapper
 
 After done using:
+
 deactivate
 
 
 3. Install project dependencies:
+
    run this command:
+
 pip install -r requirements.txt
 
 
-4. Migrate the database and store user_interactions.log into the database:
+
+5. Migrate the database and store user_interactions.log into the database:
+
    run these commands:
+
 python manage.py migrate
+
 python3 manage.py load_user_interactions
 
 
-5. Start the development server:
+
+6. Start the development server:
+
    run this command:
+
 python manage.py runserver
 
 Now Customer_Interaction_Analysis_API is up and running locally
