@@ -30,6 +30,7 @@ Virtualenv installed to manage Python virtual environments (optional but recomme
 1. Clone the project repository:
 
 git clone https://github.com/ducminh02/Customer_Interaction_Analysis_API.git
+
 cd Customer_Interaction_Analysis_API
   
 2. (Optional) Create a virtual environment for the project:
