@@ -70,7 +70,9 @@ python3 makemigrations
 python3 manage.py migrate
 
 
-you can also manually add example log file into the database with command:
+you can delete and add example log file into the database with command:
+
+python3 manage.py flush
 
 python3 manage.py load_user_interactions
 
