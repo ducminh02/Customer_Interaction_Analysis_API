@@ -8,7 +8,6 @@ A Django Project for setting up data for user interactions in the database and r
   - [Installation](#installation)
     
 - [Usage](#usage)
-  - [Authentication](#authentication)
   - [Endpoints](#endpoints)
     
 - [Examples](#examples)
@@ -77,12 +76,12 @@ python3 manage.py load_user_interactions
 
 python manage.py runserver
 
+
+
 Now Customer_Interaction_Analysis_API is up and running locally
 
 # Usage
 
-## Authentication
-To access protected endpoints, you will need to authenticate using the provided username and password for the superuser account you created. You can use Django Admin to manage user accounts and tokens.
 
 ## Endpoints
 The API provides the following endpoints:
