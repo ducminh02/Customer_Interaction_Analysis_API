@@ -85,7 +85,6 @@ Now Customer_Interaction_Analysis_API is up and running locally
 
 ## Endpoints
 The API provides the following endpoint:
-
 '/customer-analysis/{customer_id}/': Customer interaction analysis for a specific customer.
 
 You can make HTTP GET requests to this endpoint to retrieve data.
@@ -94,6 +93,8 @@ You can make HTTP GET requests to this endpoint to retrieve data.
 
 
 ## Retrieve Customer Analysis
+
+
 To retrieve customer interaction analysis for a specific customer (replace {customer_id} with the actual customer ID), make a GET request to:
 
 http://localhost:8000/customer-analysis/{customer_id}/
