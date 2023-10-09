@@ -1,0 +1,92 @@
+2023-09-01 10:00:00 1 Logged in
+2023-09-01 10:15:00 2 Browsed homepage
+2023-09-01 10:30:00 1 Viewed product ABC
+2023-09-01 11:00:00 3 Logged in
+2023-09-01 11:15:00 2 Added item XYZ to cart
+2023-09-01 11:30:00 4 Logged in
+2023-09-01 12:00:00 1 Purchased product ABC
+2023-09-01 12:15:00 5 Logged in
+2023-09-01 12:30:00 2 Viewed product PQR
+2023-09-01 13:00:00 6 Logged in
+2023-09-01 13:15:00 3 Removed item XYZ from cart
+2023-09-01 13:30:00 7 Logged in
+2023-09-01 14:00:00 1 Logged out
+2023-09-01 14:15:00 8 Logged in
+2023-09-01 14:30:00 4 Viewed product XYZ
+2023-09-01 15:00:00 9 Logged in
+2023-09-01 15:15:00 2 Added item ABC to cart
+2023-09-01 15:30:00 10 Logged in
+2023-09-01 16:00:00 1 Logged in
+2023-09-01 16:15:00 11 Logged in
+2023-09-01 16:30:00 12 Logged in
+2023-09-01 17:00:00 2 Removed item ABC from cart
+2023-09-01 17:15:00 13 Logged in
+2023-09-01 17:30:00 1 Viewed product XYZ
+2023-09-01 18:00:00 14 Logged in
+2023-09-01 18:15:00 15 Logged in
+2023-09-01 18:30:00 2 Logged out
+2023-09-01 19:00:00 1 Logged out
+2023-09-01 19:15:00 16 Logged in
+2023-09-01 19:30:00 17 Logged in
+2023-09-01 20:00:00 3 Logged in
+2023-09-01 20:15:00 18 Logged in
+2023-09-01 20:30:00 1 Added item PQR to cart
+2023-09-01 21:00:00 19 Logged in
+2023-09-01 21:15:00 2 Viewed product XYZ
+2023-09-01 21:30:00 20 Logged in
+2023-09-01 22:00:00 1 Removed item PQR from cart
+2023-09-01 22:15:00 21 Logged in
+2023-09-01 22:30:00 22 Logged in
+2023-09-01 23:00:00 3 Purchased product XYZ
+2023-09-01 23:15:00 23 Logged in
+2023-09-01 23:30:00 1 Logged out
+2023-09-02 00:00:00 24 Logged in
+2023-09-02 00:15:00 25 Logged in
+2023-09-02 00:30:00 2 Logged in
+2023-09-02 01:00:00 1 Viewed product ABC
+2023-09-02 01:15:00 26 Logged in
+2023-09-02 01:30:00 3 Browsed homepage
+2023-09-02 02:00:00 27 Logged in
+2023-09-02 02:15:00 28 Logged in
+2023-09-02 02:30:00 1 Purchased product XYZ
+2023-09-02 03:00:00 29 Logged in
+2023-09-02 03:15:00 30 Logged in
+2023-09-02 03:30:00 2 Added item PQR to cart
+2023-09-02 04:00:00 3 Removed item ABC from cart
+2023-09-02 04:15:00 1 Logged out
+2023-09-02 04:30:00 4 Logged in
+2023-09-02 05:00:00 5 Logged in
+2023-09-02 05:15:00 6 Logged in
+2023-09-02 05:30:00 2 Viewed product PQR
+2023-09-02 06:00:00 7 Logged in
+2023-09-02 06:15:00 8 Logged in
+2023-09-02 06:30:00 9 Logged in
+2023-09-02 07:00:00 3 Purchased product ABC
+2023-09-02 07:15:00 10 Logged in
+2023-09-02 07:30:00 11 Logged in
+2023-09-02 08:00:00 1 Browsed homepage
+2023-09-02 08:15:00 12 Logged in
+2023-09-02 08:30:00 13 Logged in
+2023-09-02 09:00:00 2 Logged out
+2023-09-02 09:15:00 14 Logged in
+2023-09-02 09:30:00 15 Logged in
+2023-09-02 10:00:00 16 Logged in
+2023-09-02 10:15:00 1 Viewed product XYZ
+2023-09-02 10:30:00 17 Logged in
+2023-09-02 11:00:00 18 Logged in
+2023-09-02 11:15:00 19 Logged in
+2023-09-02 11:30:00 3 Logged out
+2023-09-02 12:00:00 20 Logged in
+2023-09-02 12:15:00 21 Logged in
+2023-09-02 12:30:00 22 Logged in
+2023-09-02 13:00:00 1 Logged out
+2023-09-02 13:15:00 23 Logged in
+2023-09-02 13:30:00 24 Logged in
+2023-09-02 14:00:00 2 Viewed product ABC
+2023-09-02 14:15:00 25 Logged in
+2023-09-02 14:30:00 26 Logged in
+2023-09-02 15:00:00 27 Logged in
+2023-09-02 15:15:00 1 Added item ABC to cart
+2023-09-02 15:30:00 28 Logged in
+2023-09-02 16:00:00 29 Logged in
+2023-09-02 16:15:00 30 Logged in
