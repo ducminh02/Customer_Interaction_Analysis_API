@@ -38,7 +38,8 @@ cd Customer_Interaction_Analysis_API
 
    run these commands:
 
-virtualenv venv
+python3 -m venv venv
+
 source venv/bin/activate
 
 You need to install the virtual environment if you haven't already done that
@@ -56,25 +57,29 @@ deactivate
 
    run this command:
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 
 
-5. Migrate the database and store user_interactions.log into the database:
+5. Migrate the database:
 
    run these commands:
 
-python manage.py migrate
+python3 makemigrations
+
+python3 manage.py migrate
+
+
+you can also manually add example log file into the database with command:
 
 python3 manage.py load_user_interactions
-
 
 
 6. Start the development server:
 
    run this command:
 
-python manage.py runserver
+python3 manage.py runserver
 
 
 
