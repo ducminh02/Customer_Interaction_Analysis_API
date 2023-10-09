@@ -45,7 +45,7 @@ You need to install the virtual environment if you haven't already done that
 
 pip3 install virtualenv
 
-pip install virtualenvwrapper
+pip3 install virtualenvwrapper
 
 After done using:
 
