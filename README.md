@@ -12,6 +12,9 @@ A Django Project for setting up data for user interactions in the database and r
   - [Endpoints](#endpoints)
     
 - [Examples](#examples)
+
+- [Testing](#testing)
+  
 - [License](#license)
 
 # Getting Started
@@ -24,8 +27,69 @@ Python 3.8 or higher installed on your system.
 Virtualenv installed to manage Python virtual environments (optional but recommended)
 
 ## Installation
-Clone the project repository:
+1. Clone the project repository:
 
-git clone https://github.com/yourusername/lynx-entry-test.git
-cd lynx-entry-test
+git clone https://github.com/ducminh02/Customer_Interaction_Analysis_API.git
+cd Customer_Interaction_Analysis_API
   
+2. (Optional) Create a virtual environment for the project:
+virtualenv venv
+source venv/bin/activate
+
+You need to install the virtual environment if you haven't already done that
+sudo apt install python3-virtualenv
+pip install virtualenvwrapper
+
+After done using:
+deactivate
+
+3. Install project dependencies:
+pip install -r requirements.txt
+
+4. Migrate the database and store user_interactions.log into the database:
+python manage.py migrate
+python3 manage.py load_user_interactions
+
+
+6. Start the development server:
+python manage.py runserver
+
+Now Customer_Interaction_Analysis_API is up and running locally
+
+# Usage
+
+## Authentication
+To access protected endpoints, you will need to authenticate using the provided username and password for the superuser account you created. You can use Django Admin to manage user accounts and tokens.
+
+## Endpoints
+The API provides the following endpoints:
+
+'/customer-interaction/': List of customer interactions (requires authentication).
+'/customer-analysis/{customer_id}/': Customer interaction analysis for a specific customer.
+
+You can make HTTP GET requests to these endpoints to retrieve data.
+
+# Examples
+
+## Retrieve Customer Interactions
+To retrieve a list of customer interactions, make a GET request to:
+http://localhost:8000/customer-interaction/
+
+## Retrieve Customer Analysis
+To retrieve customer interaction analysis for a specific customer (replace {customer_id} with the actual customer ID), make a GET request to:
+http://localhost:8000/customer-analysis/{customer_id}/
+
+# Testing
+You can run tests to make sure everything works as intended
+python3 manage.py test
+
+
+
+
+
+
+
+
+
+
+
